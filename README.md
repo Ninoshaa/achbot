@@ -1,85 +1,73 @@
-# achbot
+AchBot: The Digital Dumpster Fire
+
+Welcome to AchBot, the chatbot equivalent of a potato powered by wishful thinking. Modeled after the most stunning example of human ineptitude, AchBot exists not to make your life easier, but to remind you just how much worse it could be.
+
+Why AchBot?
+
+AchBot was painstakingly designed to replicate the "charm" of its human inspiration—a beacon of confusion and bad decisions. If you’ve ever wondered what it’s like to argue with a poorly informed parrot, you’re in for a treat.
 
 Installation
 
-1. Clone the Repository
-Grab the code before it disappears into the void like your last hopeful attempt at getting your life together.
+AchBot requires a setup process because, just like its creator, it doesn’t know how to make things easy.
 
-git clone https://github.com/Ninoshaa/achbott.git
-cd achbott
-2. Create and Activate a Virtual Environment
-You might want to make sure you’re living in a parallel universe where your dependencies don't conflict:
-
-python -m venv venv
-# On Windows
-venv\Scripts\activate
-# On macOS/Linux
-source venv/bin/activate
-3. Install Dependencies
-Because you definitely need these to keep this thing running:
-
-pip install -r requirements.txt
-4. Install Rasa
-AchBot is built using Rasa. Why? Because even bots need purpose in this dark world.
-
-pip install rasa
+Clone the Repository
+Grab the code. Or don’t. AchBot won’t care, and neither should you.
+git clone https://github.com/Ninoshaa/achbott.git  
+cd achbott  
+Create and Activate a Virtual Environment
+Segregate AchBot’s mess
+python -m venv venv  
+source venv/bin/activate  # On macOS/Linux  
+venv\Scripts\activate     # On Windows  
+Install Dependencies
+Because AchBot doesn’t come prepared for anything—just like the person it’s modeled on.
+pip install -r requirements.txt  
+Install Rasa
+Rasa powers AchBot because even disasters need a foundation.
+pip install rasa  
 Setting Up AchBot
 
-1. Train the Model
-Train AchBot. You might not be training for success, but hey, it’s better than just existing.
-
-rasa train
-2. Run the Rasa Server
-Run the server and let AchBot start doing its thing—who knows what that thing is? Maybe it’s laughing at you. Maybe it’s plotting your demise.
-
-rasa run --enable-api
-3. Run Custom Actions Server
-If you want AchBot to send you a GIF to remind you of your work (or just to make you question your life), run this:
-
-rasa run actions
+Train the Model
+Teaching AchBot is like teaching a rock to swim—it’s technically possible, but why bother?
+rasa train  
+Run the Rasa Server
+Fire up the server to unleash AchBot’s unique brand of incompetence.
+rasa run --enable-api  
+Run Custom Actions
+If you want AchBot to "help" you by sending unrelated GIFs or nonsense responses, enable custom actions:
+rasa run actions  
 Bot Behavior
 
-Intents:
-go_out: AchBot tries to convince you to go out. Don’t do it. It’s just another way for life to disappoint you.
-calling: Got a call? AchBot gives you a phone sound effect—because the future is all about tech illusions.
-work: Ask AchBot about work, and it will send you a GIF of someone drowning in spreadsheets. Enjoy.
-whatsup: AchBot will ask you how you’re doing. It won’t care, but at least it asked.
-dog: Because even in the darkest of times, dogs are still cute (unless you're a cat person, in which case, you're probably beyond saving).
-Jokes & Insults:
-joke: "Why don't skeletons fight each other? Because they lack the guts to face the horror of existence!"
-insult: AchBot will insult you, not because it’s evil, but because it’s more fun to watch you squirm. For example: “You're not a failure... you’re just an underachiever in disguise.”
+AchBot has a variety of "skills"—if you can call them that:
+
+go_out: Attempts to suggest plans but sounds like it hasn’t been outside in years.
+calling: Plays phone sounds because actual communication is beyond its capacity.
+work: Sends a GIF that vaguely mocks your career while reminding you AchBot doesn’t have one.
+whatsup: Pretends to care about your life with generic questions like “რას შვები?” Spoiler: it doesn’t care.
+dog: AchBot acknowledges the existence of dogs and loves them but lies that he hates them.
 Configuration Files
 
 domain.yml
-Defines the intents, responses, and slots. It’s where we pretend we care about your emotions... but we both know that’s not true.
-
+Contains all the responses AchBot will botch when trying to hold a conversation.
 nlu.yml
-This is how AchBot understands your cries for help and responds with dark humor. Not that you’ll ever get a real answer.
-
+Teaches AchBot to understand your input. Results may vary (and by "vary," we mean "fail").
 stories.yml
-Contains the endless loops of conversations. No matter how many times you ask AchBot something, the answers will always be the same — because life doesn’t change. Neither does AchBot.
-
+Where AchBot’s decision-making process (or lack thereof) is outlined.
 actions.py
-Handles all the weird, twisted things AchBot might do when it’s bored. Like sending you gifs that make you question your life choices.
-
+The code responsible for AchBot’s special brand of uselessness.
 Development and Contributions
 
-Like to join the existential void that is AchBot? Fork the repo and contribute. Just know, once you’re in, you can never truly escape.
+Want to improve AchBot? Good luck. Fork the repository, clone it, and start fixing this train wreck:
 
-Fork the repository (or don’t, no one cares).
-Clone your fork (but, really, what’s the point?).
-Create a new branch for your hopeless feature or bug fix.
-Commit your changes and push them to your fork.
-Open a pull request — or don’t. We’re all just staring into the void anyway.
+Fork it (if your pride allows).
+Clone your fork:
+git clone https://github.com/YOUR-USERNAME/achbott.git  
+Make a branch and start crying:
+git checkout -b some-hopeless-feature  
 License
 
-This project is licensed under the MIT License — because nothing really matters in the end.
+Licensed under the MIT License. Use at your own risk—and prepare for disappointment.
 
 Contact AchBot
 
-Want to talk to AchBot? Sure. It’ll probably insult you, but go ahead. We’re all going to the same place anyway.
-
-Special Thanks
-Rasa for creating a tool that lets us pretend we care about bots.
-You for being here, reading this, and adding some meaning to AchBot’s existence (even if it’s just for a few minutes).
-Hope this fits the bill! It has the dark humor you were looking for, but please remember to use it wisely — not everyone might appreciate the sarcastic tone. 😅 Let me know if you need any tweaks or more laughs!
+Talk to AchBot if you enjoy the feeling of shouting into the void. Or don’t. It’s all the same to this glorified paperweight.
