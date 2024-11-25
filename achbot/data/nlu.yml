@@ -1,25 +1,29 @@
 version: "3.1"
+
 nlu:
   - intent: go_out
     examples: |
-      - შეიძლება
-      - ვნახოთ
+      - გინდა გავიდეთ საღამოს?
+      - ხვალ სადმე ხოარ გავიდეთ?
+      - გამო ჩემთან რამე ვქნათ.
 
   - intent: calling
     examples: |
-      - ტელეფონი გასულია მომსახურების ზონიდან
-      - ALOOOOOO
+      - ბზზზ ბზზზ ბზზზ
+      - ტაანა ნა ნა ტანა ნა ნა ტანა ნა ნა ნაა
 
   - intent: work
     examples: |
-      - [work image](https://c.tenor.com/tkIbK5fyPPwAAAAC/tenor.gif)
+      - რა ხდება სამსახურში?
 
   - intent: whatsup
     examples: |
-      - თემქაზე გავდივარ
-      - ვწევარ
-      - ვმუშაობ
+      - რას შვები?
+      - რასშვბ?
 
   - intent: dog
     examples: |
-      - ძაღლების დედამოტყან
+      - ნახე რა საყვარელი ძაღლია
+      - ცუგა
+      - ძაღლი
+      - საყვარელი ძაღლი
