@@ -1,0 +1,48 @@
+version: "3.1"
+
+intents:
+  - go_out
+  - calling
+  - work
+  - whatsup
+  - dog
+
+responses:
+  utter_go_out:
+    - text: |
+        გინდა გავიდეთ საღამოს?
+    - text: |
+        ხვალ სადმე ხოარ გავიდეთ?
+    - text: |
+        გამო ჩემთან რამე ვქნათ.
+
+  utter_calling:
+    - text: |
+        ბზზზ ბზზზ ბზზზ
+    - text: |
+        ტაანა ნა ნა ტანა ნა ნა ტანა ნა ნა ნაა
+
+  utter_work:
+    - text: |
+        რა ხდება სამსახურში?
+    - image: "https://c.tenor.com/tkIbK5fyPPwAAAAC/tenor.gif"
+
+  utter_whatsup:
+    - text: |
+        რას შვები?
+    - text: |
+        რასშვბ?
+
+  utter_dog:
+    - text: |
+        ნახე რა საყვარელი ძაღლია
+    - text: |
+        ცუგა
+    - text: |
+        ძაღლი
+    - text: |
+        საყვარელი ძაღლი
+
+
+actions:
+  - action_work_response

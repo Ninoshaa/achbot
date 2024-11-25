@@ -1,0 +1,25 @@
+version: "3.1"
+nlu:
+  - intent: go_out
+    examples: |
+      - შეიძლება
+      - ვნახოთ
+
+  - intent: calling
+    examples: |
+      - ტელეფონი გასულია მომსახურების ზონიდან
+      - ALOOOOOO
+
+  - intent: work
+    examples: |
+      - [work image](https://c.tenor.com/tkIbK5fyPPwAAAAC/tenor.gif)
+
+  - intent: whatsup
+    examples: |
+      - თემქაზე გავდივარ
+      - ვწევარ
+      - ვმუშაობ
+
+  - intent: dog
+    examples: |
+      - ძაღლების დედამოტყან

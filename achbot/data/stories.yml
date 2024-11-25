@@ -1,0 +1,27 @@
+version: "3.1"
+
+stories:
+  - story: handle_go_out
+    steps:
+      - intent: go_out
+      - action: utter_go_out
+
+  - story: handle_calling
+    steps:
+      - intent: calling
+      - action: utter_calling
+
+  - story: handle_work
+    steps:
+      - intent: work
+      - action: action_work_response
+
+  - story: handle_whatsup
+    steps:
+      - intent: whatsup
+      - action: utter_whatsup
+
+  - story: handle_dog
+    steps:
+      - intent: dog
+      - action: utter_dog
