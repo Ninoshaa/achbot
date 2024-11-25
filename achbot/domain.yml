@@ -10,39 +10,30 @@ intents:
 responses:
   utter_go_out:
     - text: |
-        გინდა გავიდეთ საღამოს?
+        შეიძლება
     - text: |
-        ხვალ სადმე ხოარ გავიდეთ?
-    - text: |
-        გამო ჩემთან რამე ვქნათ.
+        ვნახოთ
 
   utter_calling:
     - text: |
-        ბზზზ ბზზზ ბზზზ
+        ტელეფონი გასულია მომსახურების ზონიდან
     - text: |
-        ტაანა ნა ნა ტანა ნა ნა ტანა ნა ნა ნაა
+        ALOOOOOO
 
   utter_work:
     - text: |
-        რა ხდება სამსახურში?
-    - image: "https://c.tenor.com/tkIbK5fyPPwAAAAC/tenor.gif"
+        [სამსახურის გიფი](https://c.tenor.com/tkIbK5fyPPwAAAAC/tenor.gif)
 
   utter_whatsup:
     - text: |
-        რას შვები?
+        თემქაზე გავდივარ
     - text: |
-        რასშვბ?
+        ვწევარ
+    - text: |
+        ვმუშაობ
 
   utter_dog:
     - text: |
-        ნახე რა საყვარელი ძაღლია
-    - text: |
-        ცუგა
-    - text: |
-        ძაღლი
-    - text: |
-        საყვარელი ძაღლი
+        ძაღლების დედამოტყან
 
 
-actions:
-  - action_work_response
